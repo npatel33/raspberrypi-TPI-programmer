@@ -9,6 +9,9 @@ Arduino code is converted to Python 3.
 * wiringpi 
 * spidev
 
+## Hardware Connection       
+![image](https://user-images.githubusercontent.com/10621421/166121026-a541ad24-5d97-4a28-ade3-49bc26ccb682.png)
+
 ## Usage
 
 D = dump memory. Displays all current memory on the chip
