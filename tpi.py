@@ -394,7 +394,6 @@ def  writeProgram():
     fileEnd = False
     tadrs = adrs = 0x4000
     correct = True
-    pgmStartTime = millis()
     eraseChip()  # erase chip
     if chipType != Tiny4_5:
         words = chipType
@@ -518,8 +517,6 @@ def  writeProgram():
     else:
         print(512, end=' ')
     print(" bytes\n in ", end=' ')
-    print((millis()-pgmStartTime)/1000.0, end=' ')
-    print(" Seconds", end=' ')
 
     return True
 
