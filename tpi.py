@@ -13,8 +13,6 @@ wiringpi.wiringPiSetupGpio()
 wiringpi.pinMode(SS_PIN, 1);
 wiringpi.digitalWrite(SS_PIN, HIGH)
 
-f = open('test.hex')
-
 # setup SPI
 spi = None
 
